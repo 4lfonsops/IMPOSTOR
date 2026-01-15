@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [react()],
   // CRITICAL: './' makes paths relative, allowing the app to work 
   // in a subdirectory (like https://user.github.io/repo-name/)
-  base: './', 
+  base: "/IMPOSTOR/", // <--- ¡AGREGA ESTA LÍNEA EXACTAMENTE ASÍ!
 })
